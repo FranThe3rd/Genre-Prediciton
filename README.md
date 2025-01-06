@@ -45,8 +45,8 @@ An advanced machine learning system for automatic music genre classification usi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/music-genre-classification.git
-cd music-genre-classification
+git clone https://github.com/FranThe3rd/Music-Genre-Predictor-ML
+cd Music-Genre-Predictor-ML
 ```
 
 2. Install required packages:
@@ -83,21 +83,7 @@ python train.py --input_data data/features_3_sec.csv --model_output models/genre
 python predict.py --input_file path/to/audio.wav --model models/genre_classifier.pkl
 ```
 
-## 📋 Project Structure
 
-```
-.
-├── data/                  # Dataset files
-├── models/               # Saved model files
-├── notebooks/           # Jupyter notebooks
-├── src/                 # Source code
-│   ├── preprocess.py   # Audio preprocessing
-│   ├── features.py     # Feature extraction
-│   ├── train.py        # Model training
-│   └── predict.py      # Prediction script
-├── requirements.txt    # Dependencies
-└── README.md          # Project documentation
-```
 
 ## 🔄 Future Improvements
 
