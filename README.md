@@ -66,22 +66,6 @@ data/
     └── ...
 ```
 
-## 💻 Usage
-
-1. Preprocess audio files:
-```python
-python preprocess.py --input_dir data/audio --output_dir data/processed
-```
-
-2. Train the model:
-```python
-python train.py --input_data data/features_3_sec.csv --model_output models/genre_classifier.pkl
-```
-
-3. Make predictions:
-```python
-python predict.py --input_file path/to/audio.wav --model models/genre_classifier.pkl
-```
 
 
 
